@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="bear" icon="bear" color="#a1a1a1" x="-100" y="320" antialiasing="false" camx="200" camy="-100" scale="2.5" bookName="Bear">
+	<anim name="idle" anim="idle" x="-1.6" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT" anim="left" x="36.4" y="22" fps="20"/>
+	<anim name="singDOWN" anim="down" x="-37.6" y="2.4" fps="20"/>
+	<anim name="singUP" anim="up" x="-1.2" y="49.2" fps="20"/>
+	<anim name="singRIGHT" anim="right" x="27.6" y="-2" fps="20"/>
+</character>

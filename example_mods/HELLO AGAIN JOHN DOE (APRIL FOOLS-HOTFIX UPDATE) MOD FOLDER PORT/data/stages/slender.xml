@@ -1,0 +1,6 @@
+<stage zoom="0.75" name="testing" folder="stages/seezeedman/" startCamPosY="780" startCamPosX="1220">
+    <sprite name="testing" x="-200" y="-50" sprite="the_bg" scroll="1" scale="1" antialiasing="false"/>
+	<dad x="200"/>
+	<boyfriend x="1050"/>
+	<gf x="200" y="250"/>
+</stage>

@@ -1,0 +1,129 @@
+Cutscene Trigger.hx________PACKSEP________
+/*
+    USAGE
+
+    1. add this to your global.hx to prevent issues:
+
+        var seenCutsceneTriggers:Map<String, Bool> = [];
+        FlxG.save.data.seenCutsceneTriggers ??= seenCutsceneTriggers;
+
+    2. place a cutscene start and end in the chart, only one start and end per cutscene
+
+    3. you can use the custom script call onCutsceneTrigger(id, isEnd, skipped)
+        * id: the ID in the cutscene trigger event (string)
+        * isEnd: true if the end trigger, false if the start trigger
+        * skipped: if the cutscene was skipped, always false if the start trigger
+*/
+
+public var cutsceneStarts:Map<String, Float> = [];
+public var cutsceneEnds:Map<String, Float> = [];
+public var erroredCutscenes:Map<String, Bool> = [];
+public var cutscenePausable:Map<String, Bool> = [];
+public var cutsceneSkipped:Map<String, Bool> = [];
+public var csSkipText:FunkinText;
+
+function create() {
+    csSkipText = new FunkinText();
+    csSkipText.text = "Press " + CoolUtil.keyToString(Options.P1_ACCEPT[0]) + " to skip";
+    csSkipText.size *= 1.25;
+    csSkipText.camera = camHUD;
+    csSkipText.alignment = "right";
+    csSkipText.updateHitbox();
+    csSkipText.setPosition(FlxG.width - csSkipText.width - 50, FlxG.height - csSkipText.height - 50);
+    csSkipText.alpha = 0;
+    add(csSkipText);
+}
+
+function update() {
+    var skippable = false;
+    for (i in cutsceneStarts.keys()) if (!erroredCutscenes[i]) {
+        if (Conductor.songPosition > cutsceneStarts[i] && Conductor.songPosition < cutsceneEnds[i]) {
+            canPause = cutscenePausable[i];
+            if (FlxG.save.data.seenCutsceneTriggers[i]) {
+                skippable = true;
+                canPause = false;
+                csSkipText.alpha = CoolUtil.fpsLerp(csSkipText.alpha, 1, 0.25);
+                if (controls.ACCEPT && FlxG.sound.music != null) {
+                    cutsceneSkipped[i] = true;
+                    FlxG.sound.music.time = cutsceneEnds[i];
+                    resyncVocals();
+                    for (strumLine in strumLines.members) for (note in strumLine.notes)
+                        if (note.strumTime < Conductor.songPosition) remove(note.destroy(), false);
+                }
+            }
+        }
+    }
+    if (!skippable) csSkipText.alpha = CoolUtil.fpsLerp(csSkipText.alpha, 0, 0.25);
+}
+
+function postCreate() {
+    // record cutscene triggers and check for duplicates
+    for (event in events) if (event.name == 'Cutscene Trigger') {
+        if (event.params[1] == "Start") {
+            if (cutsceneStarts[event.params[0]] != null) {
+                trace("ERROR: more than one cutscene start for '" + event.params[0] + "'");
+                erroredCutscenes[event.params[0]] = true;
+            } else {
+                cutsceneStarts[event.params[0]] = event.time;
+                erroredCutscenes[event.params[0]] = false;
+                cutsceneSkipped[event.params[0]] = false;
+            }
+            cutscenePausable[event.params[0]] = event.params[2];
+        } else {
+            if (cutsceneEnds[event.params[0]] != null) {
+                trace("ERROR: more than one cutscene end for '" + event.params[0] + "'");
+                erroredCutscenes[event.params[0]] = true;
+            } else {
+                cutsceneEnds[event.params[0]] = event.time;
+                erroredCutscenes[event.params[0]] = false;
+            }
+        }
+    }
+
+    // error checks
+    for (i in cutsceneStarts.keys()) if (!erroredCutscenes[i]) {
+        if (cutsceneEnds[i] == null) {
+            trace("ERROR: no cutscene end for '" + i + "'");
+            erroredCutscenes[i] = true;
+        }
+        if (cutsceneStarts[i] > cutsceneEnds[i]) {
+            trace("ERROR: cutscene start of '" + i + "' is after cutscene end");
+            erroredCutscenes[i] = true;
+        }
+    }
+    for (i in cutsceneEnds.keys()) if (!erroredCutscenes[i]) {
+        if (cutsceneStarts[i] == null) {
+            trace("ERROR: no cutscene start for '" + i + "'");
+            erroredCutscenes[i] = true;
+        }
+    }
+}
+
+function onEvent(e) if (e.event.name == 'Cutscene Trigger') {
+    if (e.event.params[1] == "End") {
+        FlxG.save.data.seenCutsceneTriggers[e.event.params[0]] = true;
+        FlxG.save.flush();
+        canPause = true;
+        scripts.call("onCutsceneTrigger", [e.event.params[0], true, cutsceneSkipped[e.event.params[0]]]);
+    } else scripts.call("onCutsceneTrigger", [e.event.params[0], false, false]);
+}
+________PACKSEP________{
+	"params": [
+		{
+			"name": "ID",
+			"type": "String",
+			"defaultValue": ""
+		},
+		{
+			"name": "Type (only one of each per ID)",
+			"type": "DropDown('Start', 'End')",
+			"defaultValue": "Start"
+		},
+        
+		{
+			"name": "Can pause? (if cutscene start)",
+			"type": "Bool",
+			"defaultValue": false
+		}
+	]
+}________PACKSEP________

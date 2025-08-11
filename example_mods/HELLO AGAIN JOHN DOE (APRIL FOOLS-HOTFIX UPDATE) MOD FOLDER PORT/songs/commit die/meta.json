@@ -1,0 +1,19 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 210,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -16722951,
+	"displayName": "commit die",
+	"icon": "despacito",
+	"name": "commit die",
+	"color": "#00D3F9",
+	"customValues": {
+		"hideName": "true"
+	}
+}

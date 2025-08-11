@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="baby.png" width="304" height="239">
+	<SubTexture name="idle0000" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0001" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0002" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0003" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0004" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0005" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0006" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0007" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0008" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0009" x="1" y="1" width="103" height="140" frameX="-1" frameY="-8" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0010" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0011" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0012" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0013" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0014" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0015" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0016" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0017" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0018" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0019" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="idle0020" x="107" y="1" width="97" height="146" frameX="-6" frameY="-0" frameWidth="104" frameHeight="148"/>
+	<SubTexture name="speak0000" x="1" y="150" width="160" height="88" rotated="true" frameX="-3" frameY="-0" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0001" x="1" y="150" width="160" height="88" rotated="true" frameX="-3" frameY="-0" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0002" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0003" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0004" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0005" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0006" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0007" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0008" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0009" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0010" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0011" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0012" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0013" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0014" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0015" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0016" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0017" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0018" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0019" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+	<SubTexture name="speak0020" x="207" y="1" width="96" height="146" frameX="-1" frameY="-13" frameWidth="98" frameHeight="160"/>
+</TextureAtlas>

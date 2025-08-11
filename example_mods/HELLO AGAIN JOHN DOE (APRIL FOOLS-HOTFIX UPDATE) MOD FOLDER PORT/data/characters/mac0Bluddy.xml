@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-145" y="490" sprite="mac0Bluddy" scale="1.5" antialiasing="false" camx="0" camy="-20" icon="mac0" bookName="Mac0">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT" anim="left" x="40" y="8" fps="20" loop="false"/>
+	<anim name="singDOWN" anim="down" x="10" y="-48" fps="20" loop="false"/>
+	<anim name="singUP" anim="up" x="-15" y="77" fps="20" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-18" y="-26" fps="20" loop="false"/>
+</character>

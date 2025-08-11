@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="baby" icon="baby" color="#a1a1a1" x="520" y="520" antialiasing="false" camx="-150" camy="-90" scale="1.5" bookName="The Fetus">
+	<anim name="idle" anim="idle" fps="20" loop="true"/>
+	<anim name="speak" anim="speak" x="-6" y="12" fps="20"/>
+</character>

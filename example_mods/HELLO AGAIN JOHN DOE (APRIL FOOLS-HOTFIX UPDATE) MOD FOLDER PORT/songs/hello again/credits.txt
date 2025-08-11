@@ -1,0 +1,4 @@
+song: kittycass, qurk
+art: v1z, flowerbox, confidence, nico
+chart: kittycass
+code: terios

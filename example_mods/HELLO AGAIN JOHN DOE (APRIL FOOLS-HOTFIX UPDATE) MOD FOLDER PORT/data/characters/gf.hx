@@ -1,0 +1,1 @@
+function beatHit(curBeat) if (!debugMode) playAnim("dance" + curBeat % 4, true);

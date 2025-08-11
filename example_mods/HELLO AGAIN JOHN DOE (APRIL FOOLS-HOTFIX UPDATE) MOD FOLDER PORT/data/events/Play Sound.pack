@@ -1,0 +1,28 @@
+Play Sound.hx________PACKSEP________var myNewSounds = [];
+
+function postCreate()
+	for (e in events)
+		if (e.name == 'Play Sound') {
+			var sound = FlxG.sound.load(Paths.sound(e.params[0]));
+            sound.volume = e.params[1];
+            myNewSounds.push(sound);
+		}
+
+function onEvent(e) if (e.event.name == 'Play Sound') myNewSounds.pop().play(e.event.params[2]);
+________PACKSEP________{
+	"params": [
+		{
+			"name": "Sound",
+			"type": "String",
+			"defaultValue": ""
+		}, {
+			"name": "Volume",
+			"type": "Float(0.1, 1, 0.01, 2)",
+			"defaultValue": 1
+		}, {
+			"name": "Force",
+			"type": "Bool",
+			"defaultValue": true
+		}
+	]
+}________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACASURBVDhP7ZIxDoAgDEWLF/IKXMHR1dO5MbtxBU5UKaVICCatsy+Blub/nw6AEtwvRKr81CHiZraEjEJTCIYQZiKE4+S51MxCV6UMsxlSSjxRIAHovS+NxUz0G3ziD3gCXIyxNFK19Bs4OhRgDZnRfloFYd14JlWBiD6ZR17MADdVbUyUuhP9nQAAAABJRU5ErkJggg==

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="60" y="480" sprite="noob" scale="1.6" antialiasing="false" camx="-300" camy="-40" icon="noob" bookName="Noob">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT" anim="left" x="24" y="-25" fps="20" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-20" y="-80" fps="20" loop="false"/>
+	<anim name="singUP" anim="up" x="-32" y="27" fps="20" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-68" y="-38" fps="20" loop="false"/>
+	<anim name="die" anim="die" x="105" y="5" fps="20" loop="false" indices="3..49"/>
+</character>

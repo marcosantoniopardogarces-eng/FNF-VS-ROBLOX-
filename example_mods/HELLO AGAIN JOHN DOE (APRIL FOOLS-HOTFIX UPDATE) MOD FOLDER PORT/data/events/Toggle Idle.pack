@@ -1,0 +1,17 @@
+Toggle Idle.hx________PACKSEP________
+function onEvent(_)
+    if (_.event.name == 'Toggle Idle') {
+		var shit = strumLines.members[_.event.params[0]].characters[0];
+        shit.debugMode = !shit.debugMode;
+    }
+________PACKSEP________
+{
+	"params": [
+		{
+			"name": "Strumline",
+			"type": "StrumLine",
+			"defaultValue": 0
+		}
+	]
+}
+________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAkUExURQAAAP+Cgor9k6gAAP8AAAKLDASzEf///x8fHygoKDY2NgAAAAp+gMYAAAAMdFJOU///////////////ABLfzs4AAAAJcEhZcwAADsMAAA7DAcdvqGQAAABqSURBVChTXY1RFgARDANDWaz733eTlJ/Nh5cZLdjAVnyyA6WoowrYgWgy6LWisFLLAP0hNyKXbLrZiyONWMgJzxyWmGuhMXjfn1hXDO6H3rlCfP6yMI/8y0I8mTR5f+ItRHAwo66ZgwywPybxBEvS9dRMAAAAAElFTkSuQmCC==

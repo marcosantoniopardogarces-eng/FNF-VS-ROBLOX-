@@ -1,0 +1,61 @@
+logo.hx________PACKSEP________
+import Date;
+
+function onEvent(e)
+    if (e.event.name == 'logo') {
+		var logoImg = Paths.getPath("songs/"+curSong+"/logo.png");
+		if (!Assets.exists(logoImg)) logoImg = Paths.image("menu/rolbox/logoHolder");
+		var logo = new FlxSprite().loadGraphic(logoImg);
+		logo.alpha = 0;
+		logo.scale.set(0.8,0.8);
+		logo.updateHitbox();
+		logo.screenCenter();
+		logo.scrollFactor.set();
+		logo.camera = camHUD;
+		add(logo);
+	
+		final time = Std.parseFloat(e.event.params[0]);
+
+		final delay = Std.parseFloat(e.event.params[1]);
+		new FlxTimer().start(delay,()->{
+			FlxTween.tween(logo,{alpha: 1},time,{ease:FlxEase.expoOut, onComplete: Void->{
+				new FlxTimer().start(1.2,()->FlxTween.tween(logo, {alpha: 0},time, {ease: FlxEase.cubeOut}));
+			}});
+			FlxTween.tween(logo, {'scale.x': 1.1, 'scale.y': 1.1},time*2,{ease: FlxEase.quadInOut, startDelay: time/2, onComplete: Void->{remove(logo);logo.destroy();}});
+		});
+
+		// funny
+		if (scaryMode) {
+			logo.color = 0xFFFF1111;
+			var scary = new FlxText();
+			scary.font = Paths.font("ARIAL.TTF");
+			scary.text = "scary";
+			scary.scale.set(3, 2);
+			scary.size = 20;
+			scary.updateHitbox();
+			scary.setPosition(logo.x, logo.y + logo.height - 50);
+			if (downscroll) scary.y = FlxG.height - scary.y - scary.height;
+			scary.camera = camHUD;
+			new FlxTimer().start(delay+0.3, ()-> {
+				add(scary);
+				new FlxTimer().start(time*2-0.3, ()->{
+					remove(scary.destroy());
+				});
+			});
+		}
+	}
+
+________PACKSEP________{
+	"params": [
+		{
+			"name": "time (seconds)",
+			"type": "String",
+			"defaultValue": "2.1"
+		},
+		{
+			"name": "delay (seconds)",
+			"type": "String",
+			"defaultValue": "0"
+		}
+	]
+}________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADGSURBVDhPnZNPD8IgDMXBmXkxajz5/T+adw8z8eC/YV/tWxh0Ov0lHVDKoy1ZDEbXNsmmb1JKIcZhP2d7ew7+yIOb60Md3zivljpSZIHP3MOgjFUBAvXc5jASAEiN9kmEpVcC2KCZqyIvQ5v4Sw8IskOWVQZzyEsbZcCNcu3BZ9SaCesuffS7MICUazIl4vbAe0KU5YlAoBHrdWVM3eaJaCPEeZJhjzlBFgj2npjZIcb924jddhQ7iLXwEWnLZXfv17b8lxBeaKqWjXdeUP8AAAAASUVORK5CYII===

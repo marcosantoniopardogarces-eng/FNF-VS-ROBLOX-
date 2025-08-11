@@ -1,0 +1,19 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 147,
+	"difficulties": [
+		"normal"
+	],
+	"needsVoices": false,
+	"parsedColor": -1,
+	"displayName": "seezeeman",
+	"icon": "safestman",
+	"name": "seezeeman",
+	"color": "#FFFFFF",
+	"customValues": {
+		"hideName": "true"
+	}
+}

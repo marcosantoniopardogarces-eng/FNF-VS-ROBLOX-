@@ -1,0 +1,8 @@
+Toggle Snappy Camera.hx________PACKSEP________//public var isSnappy = false;
+
+function postUpdate() if (isSnappy) camGame.snapToTarget();
+
+function onEvent(e) if (e.event.name == 'Toggle Snappy Camera') isSnappy = !isSnappy;
+________PACKSEP________{
+	"params": []
+}________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAABJQTFRF/////////4KC/wAAqAAAAAAAPc32KAAAAAF0Uk5TAEDm2GYAAABGSURBVHjanYxBCgBBCMO0Nf//8kJBPO1lcigkoPULZM4lMuuMhSwiBSl2fHE8ge5Gnr2gAXlI2TBDZsNSFzp6T5sLRz3xAUUqAk3TOF6DAAAAAElFTkSuQmCC==

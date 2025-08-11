@@ -1,0 +1,70 @@
+name: Mobile + Release
+on: workflow_dispatch
+
+permissions:
+  contents: write
+  discussions: write
+
+env:
+  PROJECT_NAME: PsychEngine
+  REPO_PATH: marcosantoniopardogarces-eng/cp:-cannot-stat-'/storage/emulated/0/Download/subirgit.sh':-No-such-file-or-directory
+
+jobs:
+  get-commit-hash:
+    runs-on: ubuntu-latest
+    outputs:
+      commit_hash: ${{ steps.get_commit_hash.outputs.COMMIT_HASH }}
+    steps:
+      - name: Check Repository
+        run: |
+          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+          echo "REPO_PATH: ${{ env.REPO_PATH }}"
+          if [[ "$GITHUB_REPOSITORY" != "${{ env.REPO_PATH }}" ]]; then
+            echo "Doesn't seem to be correct, returning SIGABRT..."
+            exit 6
+          else
+            echo "Seems to be correct..."
+          fi
+
+      - name: Get latest commit hash
+        id: get_commit_hash
+        run: |
+          commit_hash=${GITHUB_SHA::7}
+          echo "Latest commit hash is $commit_hash"
+          echo "::set-output name=COMMIT_HASH::$commit_hash"
+
+  build:
+    name: Android
+    needs: get-commit-hash
+    uses: ./.github/workflows/build.yml
+    with:
+      name: Android
+      os: macos-15
+      setupCommand: sh ./setup/unix.sh
+      buildArgs: "android -final -D officialBuild"
+      artifactName: androidBuild
+      artifactPath: "export/release/android/bin/app/build/outputs/apk/release/*.apk"
+
+  Releaser:
+    needs: [get-commit-hash, build]
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Download Android Build
+        uses: actions/download-artifact@main
+        with:
+          name: androidBuild
+          path: /home/runner
+
+      - name: Move Android File
+        run: mv /home/runner/${{ env.PROJECT_NAME }}-release.apk /home/runner/${{ env.PROJECT_NAME }}-Android.apk
+
+      - name: Publish The Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "DevBuild ${{ needs.get-commit-hash.outputs.commit_hash }}"
+          tag_name: "devbuild-${{ needs.get-commit-hash.outputs.commit_hash }}"
+          prerelease: true
+          files: |
+            /home/runner/*.apk
+            

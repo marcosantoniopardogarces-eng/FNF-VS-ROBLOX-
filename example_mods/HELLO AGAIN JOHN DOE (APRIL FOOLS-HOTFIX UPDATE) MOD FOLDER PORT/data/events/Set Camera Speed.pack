@@ -1,0 +1,16 @@
+Set Camera Speed.hx________PACKSEP________
+function onEvent(e)
+    if (e.event.name == 'Set Camera Speed') {
+		camGame.followLerp = 0.04 * e.event.params[0];
+    }
+________PACKSEP________
+{
+	"params": [
+		{
+			"name": "Multiplier",
+			"type": "String",
+			"defaultValue": "1"
+		}
+	]
+}
+________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAACXBIWXMAAA7CAAAOwgEVKEqAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAAAAAKVnuc8AAAABdFJOUwBA5thmAAAAMklEQVR4nCXBIREAIBAAsB0CgSACWdAojgREePnxEWyQwyx2s4569fD1UK917GYWOfAAgaoFZUH+dOcAAAAOZVhJZk1NACoAAAAIAAAAAAAAANJTkwAAAABJRU5ErkJggg==

@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="30" y="375" sprite="elliot" scale="1.4" antialiasing="false" flipX="true" camx="-100" camy="75" isPlayer="true" icon="elliot" bookName="Elliot">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT" anim="left" x="58.57" y="-17.14" fps="20" loop="false"/>
+	<anim name="singDOWN" anim="down" x="15.71" y="-40" fps="20" loop="false"/>
+	<anim name="singUP" anim="up" x="92.86" y="57.86" fps="20" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="16.43" y="9.29" fps="20" loop="false"/>
+	<anim name="singLEFTmiss" anim="miss" x="0" y="0" fps="20" loop="false"/>
+	<anim name="singRIGHTmiss" anim="miss" x="0" y="0" fps="20" loop="false"/>
+	<anim name="singUPmiss" anim="miss" x="0" y="0" fps="20" loop="false"/>
+	<anim name="singDOWNmiss" anim="miss" x="0" y="0" fps="20" loop="false"/>
+	<anim name="pizza" anim="pizza" x="545" y="50" fps="20" loop="false" indices="2..5"/>
+	<anim name="pizzaThrow" anim="pizza" x="545" y="50" fps="20" loop="false" indices="6,7,10"/>
+</character>

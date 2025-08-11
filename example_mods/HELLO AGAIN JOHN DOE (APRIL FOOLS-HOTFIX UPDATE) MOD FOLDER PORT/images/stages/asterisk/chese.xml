@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="chese.png" width="454" height="372">
+	<SubTexture name="cheeese0000" x="0" y="204" width="238" height="80" frameX="-2" frameY="-26" frameWidth="244" frameHeight="152"/>
+	<SubTexture name="cheeese0001" x="238" y="172" width="200" height="90" frameX="-28" frameY="-36" frameWidth="244" frameHeight="152"/>
+	<SubTexture name="cheeese0002" x="0" y="284" width="168" height="88" frameX="-50" frameY="-26" frameWidth="244" frameHeight="152"/>
+	<SubTexture name="cheeese0003" x="216" y="80" width="198" height="92" frameX="-30" frameY="-36" frameWidth="244" frameHeight="152"/>
+	<SubTexture name="cheeese0004" x="216" y="0" width="238" height="80" frameX="-2" frameY="-26" frameWidth="244" frameHeight="152"/>
+	<SubTexture name="cheeese0005" x="0" y="0" width="216" height="102" frameX="-12" frameY="-26" frameWidth="244" frameHeight="152"/>
+	<SubTexture name="cheeese0006" x="238" y="262" width="140" height="110" frameX="-50" frameY="-34" frameWidth="244" frameHeight="152"/>
+	<SubTexture name="cheeese0007" x="0" y="102" width="216" height="102" frameX="-12" frameY="-26" frameWidth="244" frameHeight="152"/>
+</TextureAtlas>

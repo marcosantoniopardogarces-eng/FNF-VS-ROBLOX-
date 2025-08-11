@@ -1,0 +1,4 @@
+song: seezee, glitchdotsmh
+art: seezee
+chart: riley, glitchdotsmh
+code: seezee

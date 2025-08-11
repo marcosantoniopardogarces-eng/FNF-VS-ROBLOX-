@@ -1,0 +1,8 @@
+<stage zoom="0.55" name="park" folder="stages/plan-b/" startCamPosY="600" startCamPosX="1000">
+    <sprite name="park" x="500" y="50" sprite="park" scroll="1" scale="2" antialiasing="false"/>
+    <character name="gf-planb" x="985" y="-100"/>
+    <sprite name="parkBoilayer" x="500" y="50" sprite="parkBoilayer" scroll="1" scale="2" antialiasing="false"/>
+    <gf x="650" y="300" scroll="1"/>
+    <dad x="600" y="300"/>
+    <bf x="1600" y="300" camxoffset="-180" camyoffset="-35"/>
+</stage>

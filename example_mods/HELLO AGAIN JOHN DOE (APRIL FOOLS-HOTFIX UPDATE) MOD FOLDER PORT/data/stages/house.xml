@@ -1,0 +1,7 @@
+<stage zoom="0.55" name="house" folder="stages/asterisk/" startCamPosY="630.5" startCamPosX="1170.5">
+    <sprite name="house" x="600" y="150" sprite="house" scroll="1" scale="2" antialiasing="false"/>
+    <sprite name="house2" x="600" y="150" sprite="cheeseless" scroll="1" scale="2" antialiasing="false"/>
+    <bf x="1500" y="0"/>
+    <gf x="650" y="300" scroll="1"/>
+    <dad x="600" y="300"/>
+</stage>

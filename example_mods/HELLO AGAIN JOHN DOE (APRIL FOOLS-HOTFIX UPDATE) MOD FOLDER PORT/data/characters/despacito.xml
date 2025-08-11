@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-150" y="550" camx="-50" camy="-60" sprite="despacito" scale="1.5" antialiasing="false" icon="despacito">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT" anim="left" x="20" y="-15" fps="20" loop="false"/>
+	<anim name="singDOWN" anim="down" x="20" y="-6" fps="20" loop="false"/>
+	<anim name="singUP" anim="up" x="24" y="32" fps="20" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="40" y="0" fps="20" loop="false"/>
+</character>

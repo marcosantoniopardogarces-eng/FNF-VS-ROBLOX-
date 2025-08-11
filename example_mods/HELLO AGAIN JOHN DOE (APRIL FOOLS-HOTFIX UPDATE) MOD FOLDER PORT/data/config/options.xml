@@ -1,0 +1,6 @@
+<!DOCTYPE codename-mod-options>
+<menu name="HAJD Options">
+	<checkbox id="superSoulfulExperience" name="FPS Lock"/>
+	<checkbox id="copyrightWorld" name="Copyrighted Music"/>
+	<checkbox id="pezTabletNotes" name="Colorful Notes"/>
+</menu>

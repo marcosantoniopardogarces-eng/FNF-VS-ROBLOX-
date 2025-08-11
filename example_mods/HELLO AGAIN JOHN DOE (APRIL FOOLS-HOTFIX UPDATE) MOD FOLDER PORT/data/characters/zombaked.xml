@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" y="445" sprite="zombaked" scale="1.6" antialiasing="false" camx="-200" camy="-90" icon="zombaked" color="#A1A1A1" bookName="Cake Zombie">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT" anim="left" x="43.13" y="-8.12" fps="20" loop="false"/>
+	<anim name="singDOWN" anim="down" x="3.75" y="-5.62" fps="20" loop="false"/>
+	<anim name="singUP" anim="up" x="-5.62" y="46.25" fps="20" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="36.25" y="-4.37" fps="20" loop="false"/>
+	<anim name="slapped" anim="death" x="16" y="176" fps="20" loop="false" indices="2..7"/>
+	<anim name="death" anim="death" x="16" y="176" fps="20" loop="false" indices="8..29"/>
+</character>

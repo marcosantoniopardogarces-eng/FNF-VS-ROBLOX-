@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="babys.png" width="302" height="244">
+	<SubTexture name="baby0000" x="116" y="126" width="128" height="73" frameX="-0" frameY="-55" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0001" x="212" y="1" width="89" height="122" rotated="true" frameX="-3" frameY="-46" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0002" x="212" y="1" width="89" height="122" rotated="true" frameX="-3" frameY="-46" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0003" x="212" y="1" width="89" height="122" rotated="true" frameX="-3" frameY="-46" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0004" x="1" y="1" width="99" height="132" frameX="-15" frameY="-0" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0005" x="103" y="1" width="106" height="121" frameX="-8" frameY="-7" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0006" x="103" y="1" width="106" height="121" frameX="-8" frameY="-7" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0007" x="103" y="1" width="106" height="121" frameX="-8" frameY="-7" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0008" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0009" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0010" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0011" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0012" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0013" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0014" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0015" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0016" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0017" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0018" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0019" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+	<SubTexture name="baby0020" x="1" y="136" width="112" height="107" frameX="-10" frameY="-20" frameWidth="128" frameHeight="136"/>
+</TextureAtlas>

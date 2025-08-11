@@ -1,0 +1,6 @@
+<stage zoom="0.65" name="cornfield" folder="stages/cheeba/" startCamPosY="780" startCamPosX="1220">
+    <sprite name="isolation" x="325" y="250" sprite="cornfield" scroll="1" scale="1.25" antialiasing="false"/>
+    <bf x="1500" y="300"/>
+    <gf x="700" y="450" scroll="1"/>
+    <dad x="800" y="300"/>
+</stage>

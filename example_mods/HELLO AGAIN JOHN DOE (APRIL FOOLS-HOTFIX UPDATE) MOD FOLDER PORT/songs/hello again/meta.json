@@ -1,0 +1,19 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 170,
+	"difficulties": [
+		"NORMAL"
+	],
+	"parsedColor": -7179779,
+	"displayName": "hello again",
+	"icon": "eviljohndoe",
+	"name": "hello again",
+	"color": "#9271FD",
+	"customValues": {
+		"startingBg": "crossroads",
+		"hideName": "true"
+	}
+}

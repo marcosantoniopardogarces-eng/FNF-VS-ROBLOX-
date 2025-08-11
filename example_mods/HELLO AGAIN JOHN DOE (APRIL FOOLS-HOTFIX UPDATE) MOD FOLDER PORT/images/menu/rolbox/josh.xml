@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="josh.png" width="254" height="623">
+	<SubTexture name="joshdoe0000" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0001" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0002" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0003" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0004" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0005" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0006" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0007" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0008" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0009" x="0" y="0" width="254" height="314" frameX="-0" frameY="-1" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0010" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0011" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0012" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0013" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0014" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0015" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0016" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0017" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0018" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0019" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+	<SubTexture name="joshdoe0020" x="0" y="314" width="251" height="309" frameX="-2" frameY="-0" frameWidth="254" frameHeight="315"/>
+</TextureAtlas>

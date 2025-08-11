@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="20" y="375" sprite="doodlliot" scale="1.4" antialiasing="false" flipX="true" camx="-50" camy="75" isPlayer="true" icon="elliot" bookName="Elliot">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT-alt" anim="left" x="58.57" y="-22.14" fps="20" loop="false"/>
+	<anim name="singDOWN-alt" anim="down" x="29.71" y="-40" fps="20" loop="false"/>
+	<anim name="singUP-alt" anim="up" x="93.86" y="39.86" fps="20" loop="false"/>
+	<anim name="singRIGHT-alt" anim="right" x="36.43" y="-0.71" fps="20" loop="false"/>
+	<anim name="singLEFTmiss-alt" anim="miss" x="-2" y="-72" fps="8" loop="true"/>
+	<anim name="singRIGHTmiss-alt" anim="miss" x="-2" y="-72" fps="8" loop="true"/>
+	<anim name="singUPmiss-alt" anim="miss" x="-2" y="-72" fps="8" loop="true"/>
+	<anim name="singDOWNmiss-alt" anim="miss" x="-2" y="-72" fps="8" loop="true"/>
+</character>

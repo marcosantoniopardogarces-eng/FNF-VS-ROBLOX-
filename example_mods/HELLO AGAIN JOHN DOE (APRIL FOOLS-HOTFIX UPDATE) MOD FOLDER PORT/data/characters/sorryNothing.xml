@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="sorryNothing" icon="sorryNothing" color="#a1a1a1" x="520" y="520" antialiasing="false" camx="-150" camy="-90" scale="1.5" bookName=" ">
+	<anim name="idle" anim="idle" fps="20" loop="true"/>
+</character>

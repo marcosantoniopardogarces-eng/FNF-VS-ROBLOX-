@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-75" y="390" camx="50" camy="60" sprite="eviljohndoe" scale="1.5" antialiasing="false" icon="eviljohndoe" bookName="John Doe...?">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT" anim="left" x="35" y="-14" fps="20" loop="false"/>
+	<anim name="singDOWN" anim="down" x="0" y="-93" fps="20" loop="false"/>
+	<anim name="singUP" anim="up" x="-10" y="30" fps="20" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-32" y="-71" fps="20" loop="false"/>
+	<anim name="singLEFT-alt" anim="altl" x="48" y="-28" fps="20" loop="false"/>
+	<anim name="singDOWN-alt" anim="altd" x="0" y="-52" fps="20" loop="false"/>
+	<anim name="singUP-alt" anim="altu" x="-10" y="30" fps="20" loop="false"/>
+	<anim name="singRIGHT-alt" anim="altr" x="-33" y="-52" fps="20" loop="false"/>
+</character>

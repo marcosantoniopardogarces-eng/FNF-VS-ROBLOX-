@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="credassets.png" width="634" height="741">
+	<SubTexture name="stars10001" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10002" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10003" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10004" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10005" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10006" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10007" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10008" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10009" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10010" x="0" y="455" width="372" height="178" frameX="-0" frameY="-0" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10011" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10012" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10013" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10014" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10015" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10016" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10017" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10018" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10019" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10020" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars10021" x="456" y="0" width="178" height="370" rotated="true" frameX="-2" frameY="-1" frameWidth="372" frameHeight="179"/>
+	<SubTexture name="stars20001" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20002" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20003" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20004" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20005" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20006" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20007" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20008" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20009" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20010" x="0" y="0" width="450" height="247" frameX="-6" frameY="-1" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20011" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20012" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20013" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20014" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20015" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20016" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20017" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20018" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20019" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20020" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars20021" x="0" y="247" width="456" height="208" frameX="-0" frameY="-44" frameWidth="456" frameHeight="252"/>
+	<SubTexture name="stars30001" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30002" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30003" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30004" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30005" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30006" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30007" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30008" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30009" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30010" x="372" y="599" width="234" height="142" rotated="true" frameX="-0" frameY="-5" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30011" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30012" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30013" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30014" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30015" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30016" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30017" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30018" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30019" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30020" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="stars30021" x="372" y="455" width="243" height="144" rotated="true" frameX="-1" frameY="-0" frameWidth="145" frameHeight="243"/>
+	<SubTexture name="zombaked0001" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0002" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0003" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0004" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0005" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0006" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0007" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0008" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0009" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0010" x="456" y="370" width="169" height="79" frameX="-0" frameY="-6" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0011" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0012" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0013" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0014" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0015" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0016" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0017" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0018" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0019" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0020" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+	<SubTexture name="zombaked0021" x="0" y="633" width="152" height="86" frameX="-8" frameY="-0" frameWidth="169" frameHeight="86"/>
+</TextureAtlas>

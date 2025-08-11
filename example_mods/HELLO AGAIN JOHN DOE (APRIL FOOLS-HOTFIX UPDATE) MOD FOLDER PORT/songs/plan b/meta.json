@@ -1,0 +1,18 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 145,
+	"difficulties": [
+		"NORMAL"
+	],
+	"parsedColor": -7179779,
+	"displayName": "plan b",
+	"icon": "frank",
+	"name": "plan b",
+	"color": "#9271FD",
+	"customValues": {
+		"lockRequirements": "hello again"
+	}
+}

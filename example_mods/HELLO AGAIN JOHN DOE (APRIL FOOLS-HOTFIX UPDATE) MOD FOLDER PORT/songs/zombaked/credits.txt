@@ -1,0 +1,4 @@
+song: kittycass
+art: nico, flowerbox, terios
+chart: tomii, kittycass
+code: terios

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="8" y="455" sprite="voyflend" scale="1.5" antialiasing="false" flipX="true" camx="-100" camy="0" isPlayer="true" icon="bf" bookName="Boyfriend">
+	<anim name="idle" anim="idle" x="0" y="0" fps="20" loop="true"/>
+	<anim name="singLEFT" anim="left" x="65" y="-18" fps="20" loop="false"/>
+	<anim name="singDOWN" anim="down" x="5" y="-8" fps="20" loop="false"/>
+	<anim name="singUP" anim="up" x="-15" y="47" fps="20" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-73" y="-9" fps="20" loop="false"/>
+	<anim name="singLEFTmiss" anim="miss" x="0" y="-3" fps="20" loop="false"/>
+	<anim name="singRIGHTmiss" anim="miss" x="0" y="-3" fps="20" loop="false"/>
+	<anim name="singUPmiss" anim="miss" x="0" y="-3" fps="20" loop="false"/>
+	<anim name="singDOWNmiss" anim="miss" x="0" y="-3" fps="20" loop="false"/>
+</character>

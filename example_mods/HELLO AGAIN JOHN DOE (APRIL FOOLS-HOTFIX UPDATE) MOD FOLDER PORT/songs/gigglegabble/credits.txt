@@ -1,0 +1,4 @@
+song: terionic, glitchdotsmh
+art: v1z
+chart: kittycass, glitchdotsmh
+code: terios

@@ -1,0 +1,23 @@
+<stage zoom="0.55" name="helloagain" folder="stages/hello-again/" startCamPosY="600" startCamPosX="1000">
+
+    <!-- BASEPLATE -->
+    <sprite name="sky" x="100" y="125" sprite="baseplate/sky" scroll="0.75" scale="2" zoomFactor="0.75" antialiasing="false"/>
+    <sprite name="skySet" x="100" y="125" sprite="baseplate/skySet" scroll="0.75" scale="2" zoomFactor="0.75" antialiasing="false"/>
+    <sprite name="skyRed" x="750" y="500" sprite="baseplate/theRedOne" scroll="0.75" scalex="7.5" scaley="5" zoomFactor="0.75" antialiasing="false"/>
+    <sprite name="baseplate" x="550" y="1125" sprite="baseplate/floor" scroll="1" scale="2" antialiasing="false"/>
+
+    <!-- SWITCHAROO -->
+    <sprite name="bg0" x="400" y="320" sprite="switcharoo/glasshouse" scroll="1" scale="2.2" antialiasing="false"/>
+    <sprite name="bg1" x="400" y="380" sprite="switcharoo/home" scroll="1" scale="1.7" antialiasing="false"/>
+    <sprite name="bg2" x="430" y="290" sprite="switcharoo/restingplace" scroll="1" scale="1.8" antialiasing="false"/>
+    <sprite name="bg3" x="430" y="360" sprite="switcharoo/robloxhq" scroll="1" scale="1.8" antialiasing="false"/>
+    
+    <!-- CROSSROADS -->
+    <sprite name="crossroads" x="330" y="360" sprite="crossroads/woah" scroll="1" scale="1.8" antialiasing="false"/>
+
+    <!-- CHARS -->
+    <gf x="650" y="400" scroll="1"/>
+    <dad x="700" y="300"/>
+    <bf x="1400" y="300"/>
+
+</stage>
